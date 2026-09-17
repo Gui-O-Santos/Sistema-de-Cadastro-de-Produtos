@@ -8,102 +8,15 @@
 
     <title>Cadastro de Produtos</title>
 
-    <style>
-
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
-        }
-
-        .container {
-            width: 450px;
-            margin: 50px auto;
-            background-color: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 0 15px rgba(0,0,0,0.15);
-        }
-
-        h1 {
-            text-align: center;
-            color: #333;
-            margin-bottom: 25px;
-        }
-
-        label {
-            display: block;
-            margin-top: 15px;
-            margin-bottom: 5px;
-            font-weight: bold;
-            color: #444;
-        }
-
-        input {
-            width: 100%;
-            padding: 12px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            font-size: 15px;
-        }
-
-        input:focus {
-            border-color: #007bff;
-            outline: none;
-        }
-
-        .botoes {
-            margin-top: 25px;
-        }
-
-        button {
-            width: 100%;
-            padding: 12px;
-            margin-top: 10px;
-            border: none;
-            border-radius: 5px;
-            font-size: 16px;
-            cursor: pointer;
-        }
-
-        .btn-cadastrar {
-            background-color: #007bff;
-            color: white;
-        }
-
-        .btn-cadastrar:hover {
-            background-color: #0056b3;
-        }
-
-        .btn-abrir {
-            background-color: #28a745;
-            color: white;
-        }
-
-        .btn-abrir:hover {
-            background-color: #1e7e34;
-        }
-
-        .observacao {
-            margin-top: 20px;
-            text-align: center;
-            font-size: 13px;
-            color: #777;
-        }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
+<a class="btn-translate" href="translate.php">Traduzir</a>
+    
     <div class="container">
-
         <h1>Cadastro de Produto</h1>
 
         <form action="confirmacao.php" method="POST">

@@ -23,6 +23,7 @@ $quantidade = $_POST['quantidade'] ?? '';
 
     <link rel="stylesheet" href="style.css">
 
+
 </head>
 
 <body class="Cadastro">
@@ -64,13 +65,21 @@ $quantidade = $_POST['quantidade'] ?? '';
         </div>
 
 
-        <a href="index.php">
-            Cadastrar Produto
-        </a>
+        <form action="cadastro.php" method="POST">
+            <div class="botoes">
+
+                <button
+                    type="submit"
+                    class="btn-cadastrar">
+                    Confirmar Cadastro
+                </button>
+
+            </div>
+        </form>
 
 
-        <a href="abrir_csv.php" class="verde">
-            Abrir arquivo CSV
+        <a href="index.php" class="verde">
+            Voltar
         </a>
 
     </div>

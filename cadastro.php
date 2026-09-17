@@ -173,6 +173,7 @@ fclose($fp);
 </head>
 
 <body>
+    
 
     <div class="mensagem">
 
@@ -221,7 +222,7 @@ fclose($fp);
         </a>
 
     </div>
-
+    
 </body>
 
 </html>

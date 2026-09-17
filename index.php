@@ -61,8 +61,11 @@
             margin-top: 25px;
         }
 
-        button {
-            width: 100%;
+
+        .btn-cadastrar {
+            background-color: #007bff;
+            color: white;
+             width: 100%;
             padding: 12px;
             margin-top: 10px;
             border: none;
@@ -71,22 +74,49 @@
             cursor: pointer;
         }
 
-        .btn-cadastrar {
-            background-color: #007bff;
-            color: white;
-        }
-
         .btn-cadastrar:hover {
-            background-color: #0056b3;
+            background-color: #0273ec;
+             width: 100%;
+            padding: 12px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
         }
 
         .btn-abrir {
             background-color: #28a745;
             color: white;
+             width: 100%;
+            padding: 12px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
         }
 
         .btn-abrir:hover {
             background-color: #1e7e34;
+        }
+
+        .btn-translate {
+            background-color: #007bff;
+            color: white;
+            width: 10%;
+            padding: 12px;
+            margin-top: 100px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-left: 45%;
+    }
+
+         .btn-translate:hover {
+            
+            background-color: #0273ec;
         }
 
         .observacao {
@@ -102,8 +132,9 @@
 
 <body>
 
+<a class="btn-translate" href="translate.php">Traduzir</a>
+    
     <div class="container">
-
         <h1>Cadastro de Produto</h1>
 
         <form action="confirmacao.php" method="POST">

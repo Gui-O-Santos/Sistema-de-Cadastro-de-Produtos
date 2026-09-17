@@ -44,87 +44,12 @@ $cabecalho = fgetcsv($fp, 1000, ";");
 
     <title>Produtos Cadastrados</title>
 
-    <style>
-
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
-            margin: 0;
-            padding: 30px;
-        }
-
-        .container {
-            width: 90%;
-            max-width: 1000px;
-            margin: auto;
-            background-color: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 0 15px rgba(0,0,0,0.15);
-        }
-
-        h1 {
-            text-align: center;
-            color: #333;
-            margin-bottom: 30px;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-
-        th {
-            background-color: #007bff;
-            color: white;
-            padding: 12px;
-            text-align: left;
-        }
-
-        td {
-            padding: 10px;
-            border-bottom: 1px solid #ddd;
-        }
-
-        tr:hover {
-            background-color: #f5f5f5;
-        }
-
-        .botoes {
-            margin-top: 25px;
-            text-align: center;
-        }
-
-        .botao {
-            display: inline-block;
-            padding: 12px 20px;
-            margin: 5px;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-
-        .voltar {
-            background-color: #007bff;
-        }
-
-        .voltar:hover {
-            background-color: #0056b3;
-        }
-
-        .quantidade {
-            margin-top: 20px;
-            text-align: center;
-            color: #555;
-        }
-
-    </style>
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<div class="container">
+<div class="container_CSV">
 
     <h1>Produtos Cadastrados</h1>
 

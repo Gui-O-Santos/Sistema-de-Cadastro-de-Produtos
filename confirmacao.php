@@ -57,6 +57,25 @@ $quantidade = $_POST['quantidade'] ?? '';
             border-radius: 5px;
         }
 
+        button {
+            width: 100%;
+            padding: 12px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .botoes {
+            margin-top: 25px;
+        }
+
+        .btn-cadastrar {
+            background-color: #007bff;
+            color: white;
+        }
+
         a {
             display: block;
             margin-top: 15px;
@@ -122,13 +141,21 @@ $quantidade = $_POST['quantidade'] ?? '';
         </div>
 
 
-        <a href="index.php">
-            Cadastrar Produto
-        </a>
+        <form action="cadastro.php" method="POST">
+            <div class="botoes">
+
+                <button
+                    type="submit"
+                    class="btn-cadastrar">
+                    Confirmar Cadastro
+                </button>
+
+            </div>
+        </form>
 
 
-        <a href="abrir_csv.php" class="verde">
-            Abrir arquivo CSV
+        <a href="index.php" class="verde">
+            Voltar
         </a>
 
     </div>

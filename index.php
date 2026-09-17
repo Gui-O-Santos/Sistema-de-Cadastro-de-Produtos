@@ -106,7 +106,7 @@
 
         <h1>Cadastro de Produto</h1>
 
-        <form action="cadastro.php" method="POST">
+        <form action="confirmacao.php" method="POST">
 
             <label for="codigo">
                 Código:
